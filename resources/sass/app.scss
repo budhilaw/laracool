@@ -1,0 +1,38 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Vendor
+@import '~accordionjs/accordion';
+@import '~animsition/dist/css/animsition';
+@import '~bootstrap-progressbar/css/bootstrap-progressbar-3.3.4';
+@import '~hamburgers/_sass/hamburgers/hamburgers';
+@import '~jqvmap/dist/jqvmap';
+@import '~lightbox2/dist/css/lightbox';
+@import '~@mdi/font/css/material-design-iconic-font';
+@import '~perfect-scrollbar/css/perfect-scrollbar';
+@import '~select2/dist/css/select2';
+@import '~slick-carousel/slick/slick';
+@import '~wowjs/css/libs/animate.css';
+
+// Font-awesome 5
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/v4-shims';
+
+.main-content {
+  padding-top: 0px !important;
+  min-height: auto !important;
+}
+
+.navbar-sidebar2 .navbar__list li a > i {
+  margin-right: 20px !important;
+}
